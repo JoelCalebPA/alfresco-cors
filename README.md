@@ -21,8 +21,8 @@ En la versión 7.0 de Alfresco había un problema al colocar el comodin `*` (hab
 
 Primero, agregamos los siguientes JARs a la carpeta `alfresco-7.2.0/tomcat/webapps/alfresco/WEB-INF/lib`
 
-- [cors-filter-2.5]
-- [java-property-utils-1.9.1]
+- cors-filter-2.5
+- java-property-utils-1.9.1
 
 Ahora editamos el fichero `alfresco-7.2.0/tomcat/webapps/alfresco/WEB-INF/server.xml` y agregamos las siguientes lineas casi al final del contenido, antes de la etiqueta `</web-app>`:
 
