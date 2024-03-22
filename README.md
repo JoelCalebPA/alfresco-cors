@@ -24,7 +24,7 @@ Primero, agregamos los siguientes JARs a la carpeta `alfresco-7.2.0/tomcat/webap
 - cors-filter-2.5
 - java-property-utils-1.9.1
 
-Ahora editamos el fichero `alfresco-7.2.0/tomcat/webapps/alfresco/WEB-INF/server.xml` y agregamos las siguientes lineas casi al final del contenido, antes de la etiqueta `</web-app>`:
+Ahora editamos el fichero `alfresco-7.2.0/tomcat/webapps/alfresco/WEB-INF/web.xml` y agregamos las siguientes lineas casi al final del contenido, antes de la etiqueta `</web-app>`:
 
 ```xml
 <filter>
